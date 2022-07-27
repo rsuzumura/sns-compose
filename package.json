@@ -1,0 +1,14 @@
+{
+  "name": "sns-compose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:docker": "npm run docker && npm run localstack:setup",
+    "docker": "docker-compose up -d",
+    "localstack:setup": "./config/localstack/setup.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
