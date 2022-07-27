@@ -1,0 +1,13 @@
+{
+  "port": 9331,
+  "rememberMessages": 100,
+  "dynamicEndpoints": [
+    {
+      "key": "localSQS",
+      "secretKey": "localSQS",
+      "region": "us-east-1",
+      "url": "http://localstack-core-cloud:9330",
+      "visibility": 0
+    }
+  ]
+}

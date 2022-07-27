@@ -1,0 +1,6 @@
+{
+    "Attributes": {
+      "RawMessageDelivery": "true"
+    },
+    "TopicArn": "arn:aws:sns:us-east-1:000000000000:accountUpdated"
+  }
